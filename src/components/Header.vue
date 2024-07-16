@@ -18,7 +18,7 @@
     </div>
 
     <div class="flex flex-col-reverse md:flex-row gap-8 mt-20 justify-center items-center">
-        <article class="text-white px-4 md:px-0 md:w-1/2 px-8 space-y-4">
+        <article class="text-white md:px-0 md:w-1/2 px-8 space-y-4">
                 <h2 class="font-bold text-2xl text-center text-green-500 uppercase">¿Quien Soy?</h2>
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit auctor
