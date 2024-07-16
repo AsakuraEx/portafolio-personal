@@ -5,20 +5,21 @@
 <template>
     
     <div class="text-center md:flex md:justify-between mt-4 items-center text-white">
-        <h1 class="text-3xl font-bold mb-5 md:mb-0">
+        <h1 class="text-3xl font-bold mb-5 md:mb-0 text-green-500">
+            <span class="text-white">Portafolio</span>
             Francisco Escobar
         </h1>
         <ul class="flex gap-4 flex-col md:flex-row">
             <li class="text-lg cursor-pointer hover:text-slate-200">Quién Soy</li>
-            <li class="text-lg cursor-pointer hover:text-slate-200">Mis Habilidades</li>
-            <li class="text-lg cursor-pointer hover:text-slate-200">Proyectos</li>
+            <li class="text-lg cursor-pointer hover:text-slate-200">Habilidades</li>
+            <li class="text-lg cursor-pointer hover:text-slate-200">Experiencia</li>
             <li class="text-lg cursor-pointer hover:text-slate-200">Contactame</li>
         </ul>
     </div>
 
-    <div class="flex flex-col md:flex-row gap-8 mt-20 justify-center items-center">
-        <article class="text-white px-4 md:px-0 md:w-1/2 px-8">
-                <h2 class="font-bold text-2xl">¿Quien Soy?</h2>
+    <div class="flex flex-col-reverse md:flex-row gap-8 mt-20 justify-center items-center">
+        <article class="text-white px-4 md:px-0 md:w-1/2 px-8 space-y-4">
+                <h2 class="font-bold text-2xl text-center text-green-500 uppercase">¿Quien Soy?</h2>
                 <p class="text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit auctor
                      efficitur. Morbi gravida dui vel ligula gravida rutrum. Morbi.
@@ -27,9 +28,10 @@
         
         <picture class="md:w-1/2 items-center justify-center">
             <img 
-                class="w-64 md:w-72 aspect-square rounded-full  mx-auto"
+                class="w-64 md:w-72 aspect-square rounded-full mx-auto"
                 src="/img/Cat03.jpg" 
-                alt="Foto de perfil">
+                alt="Foto de perfil"
+            />
         </picture>
     </div>
     
