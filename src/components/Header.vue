@@ -10,10 +10,10 @@
             Francisco Escobar
         </h1>
         <ul class="flex gap-4 flex-col md:flex-row">
-            <li class="text-lg cursor-pointer hover:text-slate-200">Quién Soy</li>
-            <li class="text-lg cursor-pointer hover:text-slate-200">Habilidades</li>
-            <li class="text-lg cursor-pointer hover:text-slate-200">Experiencia</li>
-            <li class="text-lg cursor-pointer hover:text-slate-200">Contactame</li>
+            <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#">Quién Soy</a></li>
+            <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#habilidades">Habilidades</a></li>
+            <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#experiencia">Experiencia</a></li>
+            <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#contactame">Contactame</a></li>
         </ul>
     </div>
 

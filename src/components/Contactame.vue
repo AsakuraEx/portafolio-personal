@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div class="mt-10 mx-8 bg-green-700 rounded py-12">
-        <h1 class="text-white font-bold text-3xl text-center mb-12 uppercase">Contactame</h1>
+    <div class="mt-10 mx-8 bg-green-700 rounded py-12 mb-16">
+        <h1 class="text-white font-bold text-3xl text-center mb-12 uppercase" id="contactame">Contactame</h1>
         <div class="flex flex-col gap-12 md:flex-row-reverse">
             <form
                 class="mx-8 px-8  md:w-1/2"
