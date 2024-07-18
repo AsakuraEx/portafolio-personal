@@ -12,8 +12,12 @@
         <div class="flex flex-col gap-8 text-center" id="experiencia">
             <h1 class="text-green-500 text-3xl font-bold uppercase">Experiencia</h1>
             <p class="text-justify md:text-center text-lg text-white px-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit auctor efficitur. 
-                Morbi gravida dui vel ligula gravida rutrum. Morbi.
+                A lo largo del tiempo he desempeñado mi profesión de distintas maneras, inicialmente en mi infancia vendia juegos que eran descargados de internet y posteriormente almacenados en CDs o DVDs;
+                posterior a recibir una formación de informática en mi Bachillerato, lograba realizar trabajos de mantenimiento correctivo y preventivo a equipos de familiares, conocidos y algunas personas que
+                llegaban a mi por recomendación.
+                <br><br>
+                Finalmente logre ganar experiencia en diferentes empresas e instituciones en las que se me ha permitido laborar, te las listo a continuación, indicandote en una breve descripción algunas funciones que ejercía
+                en cada una de las empresas e instituciones
             </p>
         </div>
     

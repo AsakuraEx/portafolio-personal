@@ -1,22 +1,25 @@
 <script setup>
-  import {ref, reactive, onMounted} from 'vue';
+  import {ref, onMounted} from 'vue';
   
   import Header from './components/Header.vue';
   import Habilidades from './components/Habilidades.vue';
   import Experiencia from './components/Experiencia.vue';
+  import Proyectos from './components/Proyectos.vue';
   import Contactame from './components/Contactame.vue';
   import { db1 } from './data/habilidades';
   import { db2 } from './data/experiencia';
+  import { db3 } from './data/proyectos';
 
   const habilidades = ref([]);
   const experiencias = ref([]);
+  const proyectos = ref([]);
 
   onMounted(()=>{
       habilidades.value = db1;
       experiencias.value = db2;
+      proyectos.value = db3;
   })
 
-  
 
 </script>
 
@@ -33,6 +36,10 @@
       :experiencias="experiencias"
     />
 
+    <Proyectos
+      :proyectos="proyectos"
+    />
+
     <Contactame />
 
     <div class="text-center md:flex md:justify-between mt-4 items-center text-white border-t border-slate-200 pt-12">
@@ -44,6 +51,7 @@
           <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#">Quién Soy</a></li>
           <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#habilidades">Habilidades</a></li>
           <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#experiencia">Experiencia</a></li>
+          <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#proyectos">Proyectos</a></li>
           <li class="text-lg cursor-pointer hover:text-slate-200"><a href="#contactame">Contactame</a></li>
       </ul>
     </div>
